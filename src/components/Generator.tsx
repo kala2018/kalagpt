@@ -228,7 +228,7 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button onclick={handleButtonClick} disabled={systemRoleEditing()} gen-slate-btn style={{width: "120px"}}>
+          <button style={{width: "100px"}} onclick={handleButtonClick} disabled={systemRoleEditing()} gen-slate-btn>
             发送
           </button>
 
