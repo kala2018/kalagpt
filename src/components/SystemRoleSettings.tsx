@@ -35,7 +35,7 @@ export default (props: Props) => {
         <Show when={!props.currentSystemRoleSettings() && props.canEdit()}>
           <span onClick={() => props.setSystemRoleEditing(!props.systemRoleEditing())} class="sys-edit-btn">
             <IconEnv />
-            <span>Add System Role</span>
+            <span>设置AI扮演的角色</span>
           </span>
         </Show>
       </Show>
@@ -57,7 +57,7 @@ export default (props: Props) => {
             />
           </div>
           <button onClick={handleButtonClick} gen-slate-btn>
-            Set
+            设置
           </button>
         </div>
       </Show>
